@@ -56,7 +56,6 @@ int parseArguments(char ** argv, char *targetArgv) {
                             isNegative = 1;
                         }
                         args += (minusSignHandler(args));
-                        printf("\nargs: %s\n", args);
                     }
                 }
                 
